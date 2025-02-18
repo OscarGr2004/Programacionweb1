@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEPORTES</title>
+<style>
+       table {
+           width: 75%;
+           margin: auto;
+           text-align: center;
+       }
+       iframe {
+           width: 500px;
+           height: 300px;
+           border: 1px solid black;
+       }
+       img {
+           width: 100px;
+           cursor: pointer;
+       }
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">DEPORTES</h1>
+<table>
+<tr>
+<td>
+<img src="1.jpg" onclick="cargarImagen('1.jpg')" alt="FUTBOL">
+<img src="2.jfif" onclick="cargarImagen('2.jfif')" alt="BASQUETBALL">
+<img src="3.jfif" onclick="cargarImagen('3.jfif')" alt="TENNIS">
+<img src="4.jpg" onclick="cargarImagen('4.jpg')" alt="Volleyball">
+</td>
+</tr>
+<tr>
+<td>
+<iframe id="visor" src=""></iframe>
+</td>
+</tr>
+</table>
+<script>
+       function cargarImagen(imagen) {
+           document.getElementById('visor').src = imagen;
+       }
+</script>
+</body>
+</html>
