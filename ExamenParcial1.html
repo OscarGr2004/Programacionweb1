@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Web I PRIM25</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box;">
+    <header style="text-align: center; padding: 10px;">
+        <h1 style="color: black; font-size: 24px;">Programación Web I PRIM25</h1>
+        <h2 style="font-size: 18px; margin-top: 5px;">Evaluación práctica Parcial 1</h2>
+        <h3 style="color: blue; font-size: 16px; margin-top: 5px;">Profesora: M.C. Imelda Deyanira Hernández Martínez</h3>
+        <h4 style="font-size: 16px; margin-top: 5px;">Alumno: Oscar Octavio Garcia Maya</h4>
+    </header>
+
+    <table style="width: 100%; margin-top: 20px; border-collapse: collapse;">
+        <tr>
+            <td style="width: 25%; text-align: left;">
+                <button onclick="loadMercedesPage()" style="background-color: #0074C2; color: white; padding: 5px 15px; border: none; cursor: pointer; border-radius: 5px; margin-top: 10px;">
+                    Conoce Mercedes Benz
+                </button>
+            </td>
+            <td style="width: 50%; text-align: center;">
+                <img src="images.jpg" alt="Logo Mercedes Benz" style="width: 200px; cursor: pointer; margin-top: 10px;" onclick="loadMercedesPage()">
+            </td>
+            <td style="width: 25%; text-align: center;">
+                <iframe id="infoFrame" name="infoFrame" src="" style="width: 300px; height: 250px; border: 1px solid #ccc;"></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <table style="margin-top: 15px; width: 100%; border: 0;">
+        <tr>
+            <td><img src="car1.jpg" alt="carro AMG" style="width: 100%; max-width: 250px; height: 150px; border-radius: 8px; object-fit: cover;"></td>
+            <td><img src="car2.jpg" alt="carro AMG" style="width: 100%; max-width: 250px; height: 150px; border-radius: 8px; object-fit: cover;"></td>
+            <td><img src="car3.jpg" alt="camioneta AMG" style="width: 100%; max-width: 250px; height: 150px; border-radius: 8px; object-fit: cover;"></td>
+        </tr>
+    </table>
+
+    <div style="background-color: gray; height: 5px; margin-top: 10px;"></div>
+
+    <footer style="background-color: gray; color: white; text-align: center; padding: 8px; margin-top: 20px;">
+        <address style="font-style: italic; font-size: 12px; margin-top: 5px;">Urbano Villalón 500. Col. La Ladrillera</address>
+        <h6>Universidad Politécnica de San Luis Potosí</h6>
+    </footer>
+
+    <script>
+        function loadMercedesPage() {
+            document.getElementById('infoFrame').src = 'https://www.diariomotor.com/coche/mercedes-amg-gt/';
+        }
+    </script>
+</body>
+</html>
