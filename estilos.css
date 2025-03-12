@@ -8,16 +8,16 @@ table{
 	caption-side: top;
 }
 td, th{
-	border: 1px solid gray; /*Grau*/
+	border: 1px solid gray; 
 }
 table tr:nth-child(odd){
-	background-color: white;/*Weiß*/
+	background-color: white;
 }
 table tr:nth-child(even){
-	background-color: lightgreen;/*Hellgrün*/
+	background-color: lightgreen;
 }
-table tr th{ /*Para todos los th que están dentro de tr que están dentro de table*/
-	background-color: black;/*Schwarz*/
+table tr th{ 
+	background-color: black;
 	color: white;
 }
 table tr:hover{
