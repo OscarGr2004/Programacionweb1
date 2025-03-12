@@ -1,24 +1,26 @@
 body{
-    background-color: beige;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: lightgray;
 }
-input{
-    width: 80%;
-    height:50px;
-    position:absolute;
-    left:120px;
-    background-color: rgb(152, 234, 255);
-    -moz-border-radius:20px;
-    -webkit-border-radius:20px;
-    border-radius:20px;
-    font-size: x-large;
+table{
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+	caption-side: top;
 }
-#boton{
-    background-color: plum;
+td, th{
+	border: 1px solid gray; /*Grau*/
 }
-label{
-    font-size: xx-large;
+table tr:nth-child(odd){
+	background-color: white;/*Weiß*/
 }
-#resul{
-    background-color: aliceblue;
+table tr:nth-child(even){
+	background-color: lightgreen;/*Hellgrün*/
+}
+table tr th{ /*Para todos los th que están dentro de tr que están dentro de table*/
+	background-color: black;/*Schwarz*/
+	color: white;
+}
+table tr:hover{
+	background-color: green;
+	color: white;
 }
