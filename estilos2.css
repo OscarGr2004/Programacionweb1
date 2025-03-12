@@ -1,0 +1,59 @@
+.capa1{
+	margin-left: 25%;
+	padding: 12 px;
+
+}
+
+
+ul{
+	list-style-type: none;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: lightgreen;
+	position: fixed;
+}
+li a{
+	background-color: lightgreen;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: skyblue;
+}
+li .activo{
+	background-color: darkcyan;
+	color: white;
+}
+h1{
+	font-family: "Playwrite HU", cursive;
+	 font-optical-sizing: auto;
+	  font-weight: <weight>;
+	  font-style: normal;
+}
+h2{
+	 font-family: "Doto", sans-serif;
+	 font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+}
+@font-face{
+	font-family: "fuente1" ;
+	src: url("Quicksand/Quicksand-VariableFont_wght.ttf") format("truetype") ;
+}
+@font-face{
+	font-family: "fuente2" ;
+	src: url("Quicksand/Quicksand-SemiBold.ttf") format("truetype") ;
+}
+p{
+	font-family: "fuente1";
+	font-size: 24px;
+}
+.t2{
+	font-family: "fuente2";
+	font-size: 24px;
+}
