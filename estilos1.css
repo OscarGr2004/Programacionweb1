@@ -1,26 +1,20 @@
-body{
-	background-color: lightgray;
+ul{
+	list-style-type: none;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
 }
-table{
-	width: 100%;
-	border: 1px solid gray;
-	border-collapse: collapse;
-	caption-side: top;
-}
-td, th{
-	border: 1px solid gray; /*Grau*/
-}
-table tr:nth-child(odd){
-	background-color: white;/*Weiß*/
-}
-table tr:nth-child(even){
-	background-color: lightgreen;/*Hellgrün*/
-}
-table tr th{ /*Para todos los th que están dentro de tr que están dentro de table*/
-	background-color: black;/*Schwarz*/
+li a{
+	background-color: lightgreen;
 	color: white;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
 }
-table tr:hover{
+li a:hover{
 	background-color: green;
+}
+li .activo{
+	background-color: darkgreen;
 	color: white;
 }
